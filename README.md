@@ -3,7 +3,7 @@
 - Inspired by [nicodebo/neovim-docker](https://github.com/nicodebo/neovim-docker/tree/master)
 - Clone the repo
 - Run the following command from inside your local version to build the image:
-`docker build -t neovim-docker:v1`
+    +`docker build -t neovim-docker:v1`
 - Add the following to your zsh/bash config to use as an ide in whatever directory you are in
     + This will clone your local config to the image and start neovim
 ```
@@ -17,3 +17,5 @@ neovimDocker() {
        }
 alias nd="neovimDocker"
 ```
+- To run vanilla NeoVim run
+    + `docker run -it neovim-docker:v1`
