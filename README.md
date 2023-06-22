@@ -1,6 +1,6 @@
 # NeoVim Docker
 
-- Inspired by (nicodebo/neovim-docker)[https://github.com/nicodebo/neovim-docker/tree/master]
+- Inspired by [nicodebo/neovim-docker](https://github.com/nicodebo/neovim-docker/tree/master)
 - Clone the repo
 - Run the following command from inside your local version to build the image:
 `docker build -t neovim-docker:v1`
