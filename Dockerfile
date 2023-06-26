@@ -60,4 +60,4 @@ COPY entrypoint.sh /usr/local/bin/
 VOLUME "${WORKSPACE}"
 VOLUME "${NVIM_CONFIG}"
 
-# ENTRYPOINT ["sh", "/usr/local/bin/entrypoint.sh"]
+ENTRYPOINT ["sh", "/usr/local/bin/entrypoint.sh"]
