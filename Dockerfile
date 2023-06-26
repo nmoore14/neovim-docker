@@ -36,7 +36,7 @@ ENV \
   PATH="/home/neovim/.local/bin:${PATH}"
 
 
-RUN apk add fzf zsh neovim neovim-doc curl sudo su-exec shadow --update
+RUN apk add git fzf zsh neovim neovim-doc curl sudo su-exec shadow --update
 RUN apk add wget gzip ripgrep nodejs npm --update	
   # create user
 RUN addgroup "${GNAME}" \
